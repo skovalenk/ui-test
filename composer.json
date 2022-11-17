@@ -1,0 +1,17 @@
+{
+    "name": "balance/ui-components",
+    "autoload": {
+        "psr-4": {
+            "Balance\\UiComponents\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Serhii Kovalenko",
+            "email": "ganster3012@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-simplexml": "*"
+    }
+}

@@ -1,0 +1,10 @@
+<definition>
+    <listing class="Balance\UiComponents\Ui\Components\DefaultComponent" component="view/js/collection" template="view/js/collection" />
+    <toolbar class="Balance\UiComponents\Ui\Components\DefaultComponent" component="view/js/collection" template="view/js/collection" />
+    <filters class="Balance\UiComponents\Ui\Components\DefaultComponent" component="view/js/collection" template="view/js/collection" />
+    <filters class="Balance\UiComponents\Ui\Components\DefaultComponent" component="view/js/collection" template="view/js/collection" />
+    <filter class="Balance\UiComponents\Ui\Components\DefaultComponent" component="view/js/elem" template="view/js/collection" />
+    <dataProvider class="Balance\UiComponents\Ui\Components\DefaultComponent" component="view/js/elem" template="view/js/collection" />
+    <column class="Balance\UiComponents\Ui\Components\DefaultComponent" component="view/js/elem" template="view/js/collection" />
+    <columns class="Balance\UiComponents\Ui\Components\DefaultComponent" component="view/js/elem" template="view/js/collection" />
+</definition>

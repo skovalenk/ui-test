@@ -1,0 +1,37 @@
+<listing>
+    <toolbar>
+        <filters>
+            <filter name="sku">
+                <arguments>
+                    <item name="data">
+                        <item name="component">listing/filters/text</item>
+                    </item>
+                </arguments>
+            </filter>
+        </filters>
+    </toolbar>
+    <dataProvider name="product_listing" class="Balance\UiComponents\Ui\DefaultDataProvider">
+        <arguments>
+            <item name="data">
+                <item name="table">products</item>
+            </item>
+        </arguments>
+    </dataProvider>
+    <columns>
+        <column name="name">
+            <argument name="data">
+                <item name="type">text</item>
+            </argument>
+        </column>
+        <column name="sku">
+            <argument name="data">
+                <item name="type">text</item>
+            </argument>
+        </column>
+        <column name="created_at">
+            <argument name="data">
+                <item name="type">datetime</item>
+            </argument>
+        </column>
+    </columns>
+</listing>
